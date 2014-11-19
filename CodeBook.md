@@ -9,12 +9,11 @@ This dataset has only mean and standard deviation columns from the experiment me
 
 ###Understanding columns in the dataset
 #### Group Fields
-Subject: Integer values ranging from 1 to 30 referencing each subject/person who participated in the experiment
-ActivityId: Integer values raning from 1 to 6 referencing each activity that was performed
-ActivityLabel: Six text values naming the activity performed/tracked
+- Subject: Integer values ranging from 1 to 30 referencing each subject/person who participated in the experiment
+- ActivityId: Integer values raning from 1 to 6 referencing each activity that was performed
+- ActivityLabel: Six text values naming the activity performed/tracked
 
 Note: ActivityId and ActivityLabel forms a code-value pair as follows:
-- ActivityId ActivityLabel
 - 1 WALKING
 - 2 WALKING_UPSTAIRS
 - 3 WALKING_DOWNSTAIRS
